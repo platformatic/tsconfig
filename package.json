@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/platformatic/platformatic.git"
+    "url": "git+https://github.com/platformatic/tsconfig.git"
   },
   "author": "Platformatic Inc. <oss@platformatic.dev> (https://platformatic.dev)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/platformatic/platformatic/issues"
+    "url": "https://github.com/platformatic/tsconfig/issues"
   },
-  "homepage": "https://github.com/platformatic/platformatic#readme",
+  "homepage": "https://github.com/platformatic/tsconfig#readme",
   "dependencies": {
     "json5": "^2.2.3"
   },
