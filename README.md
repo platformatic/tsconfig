@@ -79,10 +79,12 @@ This configuration is optimized for modern Node.js applications and includes the
 
 ### 🔧 Transpilation Settings
 
-| Setting                            | Value  | Description                                              |
-| ---------------------------------- | ------ | -------------------------------------------------------- |
-| [`removeComments`][removeComments] | `true` | Remove comments from compiled output for smaller bundles |
-| [`newLine`][newLine]               | `lf`   | Use Unix-style line endings for consistency              |
+| Setting                                        | Value  | Description                                              |
+| ---------------------------------------------- | ------ | -------------------------------------------------------- |
+| [`removeComments`][removeComments]             | `true` | Remove comments from compiled output for smaller bundles |
+| [`newLine`][newLine]                           | `lf`   | Use Unix-style line endings for consistency              |
+| [`verbatimModuleSyntax`][verbatimModuleSyntax] | `true` | Preserve module syntax more accurately in output        |
+| [`erasableSyntaxOnly`][erasableSyntaxOnly]     | `true` | Allow removal of only erasable syntax for cleaner code  |
 
 ## 💡 Why These Settings?
 
@@ -125,3 +127,5 @@ Apache 2.0
 [useUnknownInCatchVariables]: https://www.typescriptlang.org/tsconfig#useUnknownInCatchVariables
 [removeComments]: https://www.typescriptlang.org/tsconfig#removeComments
 [newLine]: https://www.typescriptlang.org/tsconfig#newLine
+[verbatimModuleSyntax]: https://www.typescriptlang.org/tsconfig#verbatimModuleSyntax
+[erasableSyntaxOnly]: https://www.typescriptlang.org/tsconfig#erasableSyntaxOnly
